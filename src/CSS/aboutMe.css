@@ -1,0 +1,132 @@
+/*****************about me ****************/
+.container_header{
+    margin-top: 120px;
+    color: white;
+   }
+   
+   .hr-line1 {
+     flex: 1;
+     border: none;
+     border-radius: 12px;
+     width: 35%;
+     margin: 0 5px;
+     margin-left: 80px;
+     border-top: 3px solid rgba(134, 205, 255, 100%);
+     box-shadow: rgba(0, 216, 255, 1) 0px 0px 20px 2px;
+   }
+   .hr-line2 {
+     flex: 1;
+     border-style: none;
+     border-radius: 12px;
+     width: 35%;
+     float:right ;
+     margin: 0 5px;
+     margin-right: 80px;
+     border-top: 3px solid rgba(134, 205, 255, 100%);
+     box-shadow: rgba(0, 216, 255, 1) 0px 0px 20px 2px;
+   }
+   
+   .hr-text {
+     font-family: sans-serif;
+     font-size: 35px;
+     position: relative;
+     top: -20px;
+     left: 44%;
+     color: #ffffff;
+     font-weight: bold;
+   }
+   .about_text_div{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     flex-wrap: wrap;
+   
+     letter-spacing: 1px;
+     font-size: 14px;
+     font-family: sans-serif;
+     font-weight: 100;
+     text-align: left;
+   
+     width: 63%;
+     margin-left: 7%;
+     margin-top: 70px;
+     color: rgb(200, 200, 200);
+   }
+   .about_each_item{
+     margin:10px;
+     padding: 10px;
+   
+     width: 275px;
+   
+     border: 1px solid rgb(0, 0, 121);
+     background-color: rgb(0, 0, 50);
+     box-shadow: 0px 0px 13px 0px rgb(0, 57, 92);
+     transition: 0.3s;
+   }
+   .about_each_item:hover{
+     border: 1px solid rgb(0, 98, 168);
+     background-color: rgb(0, 0, 65);
+     box-shadow: 0px 0px 15px 3px rgb(1, 78, 126);
+     transition: 0.3s;
+   }
+   .about_last_item{
+     width: 590px;
+   }
+   .about_item_headers{
+     font-weight: bold;
+     font-size: 25px;
+     font-family: sans-serif;
+     color: rgb(226, 226, 226);
+     text-align: center;
+   }
+   .About_image{
+     position: absolute;
+     top: 350px;
+     left: 75%;
+     width: 15%;
+   }
+   
+   @media (max-width:1366px) {
+     .hr-line1{
+       width: 89%;
+       margin-right: 250px;
+     }
+     .hr-line2{
+       display: none;
+     }
+     .hr-text{
+       top: -55px;
+     }
+     .About_image{
+       display: none;
+     }
+     .about_text_div{
+       margin-left: auto;
+       margin-right: auto;
+     }
+    }
+   
+    @media (max-width:1018px) {
+     .about_last_item{
+       width: 275px;
+     }
+     .hr-text{
+      font-size: 25px;
+     }
+     .about_item_headers{
+       font-size: 18px;
+     }
+     .about_text_div{
+       font-size: 12px;
+     }
+     .hr-line1{
+       margin-left: 30px;
+     }
+    }
+   
+   
+    @media (max-width:700px) {
+     .hr-text{
+       left: 35%;
+     }
+    }

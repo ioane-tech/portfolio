@@ -1,0 +1,105 @@
+/*************project************/
+.work_imgs_div{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    margin-top: 50px;
+  }
+  .work_imgs_image{
+    width: 200px;
+    height: 180px;
+    filter:drop-shadow(0px 10px 40px rgb(75, 76, 77)) ;
+    margin-top: 30px;
+  }
+  .work_imgs_img_link_label{
+    font-family: sans-serif;
+    font-size: 30px;
+    width: 240px;
+    margin-right: 100px;
+    margin-left: -60px;
+  }
+  .work_imgs_img_link_label:hover{
+    color: rgb(187, 187, 187);
+  }
+  .projects_page_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .projects_index_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: auto;
+  }
+  .index_buttons{
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+  
+    margin-bottom: 5px;
+    color: rgb(43, 137, 163);
+    border: 1px solid rgb(0, 0, 27);
+    border-radius: 50px;
+    background-color:rgb(0, 0, 27);
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .index_buttons:focus{
+    font-size: 33px;
+    color: white;
+    transition: 0.2s;
+  }
+  .project_description{
+    font-family: sans-serif;
+    text-decoration: none;
+    width: 300px;
+    margin-left: -100px;
+  }
+  .description_link{
+    text-decoration: none;
+  }
+  
+  @media (max-width:1000px) {
+    .projects_index_container{
+      flex-direction: row;
+      width: 500px;
+    }
+    .work_imgs_div{
+      flex-direction: column;
+    }
+    .work_imgs_img_link_label{
+      font-size: 20px;
+      margin-left: 0px;
+    }
+  
+   }
+  
+   @media (max-width:550px) {
+    .projects_index_container{
+      flex-direction: row;
+      width: 340px;
+    }
+    .work_imgs_div{
+      flex-direction: column;
+      width: 380px;
+      margin-left: 0;
+    }
+    .work_imgs_image{
+      width: 300px;
+      height: 280px;
+    }
+    .work_imgs_img_link_label{
+      font-size: 18px;
+      margin-left: 0px;
+    }
+    .projects_page_container{
+      width: 600px;
+    }
+  
+   }
+  

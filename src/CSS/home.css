@@ -1,0 +1,170 @@
+/*************home************/
+.home_container{
+    position: absolute;
+    top:200px;
+    left: -80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+  }
+  .profile_bg{
+    position: absolute;
+    left: 860px;
+    top: 70px;
+    width: 600px;
+  }
+  /* .io_img{
+    position: absolute;
+    left: 1120px;
+    top: -20px;
+    width: 300px;
+    height: 280px;
+  } */
+  
+  .home_my_name_link{
+    color: white;
+  
+    transition: 0.5s;
+  }
+  .home_my_name{
+    position: absolute;
+    text-align: justify; 
+    text-align-last: left;
+    text-align: center;
+    font-size: 40px;
+  
+    width: 700px;
+    height: 290px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    background-color: rgba(64, 65, 66, 0.7);
+    color: white;
+    margin:0;
+    padding-left: 10px;
+    cursor:pointer;
+    transition: 0.5s;
+  }
+  .home_my_name > p{
+    margin-bottom: 5px;
+  }
+  .home_frontend_deve{
+    font-size: 25px;
+    margin-top: -25px;
+    color: rgba(0, 216, 255, 1);
+  }
+  .home_about{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    overflow-wrap: break-word;
+    text-align: left;
+    width: 500px;
+    font-size: 13px;
+    font-weight:100 ;
+  
+    color: rgb(226, 226, 226);
+  
+  }
+  /* .contactUsBanner{
+    height: 200px;
+    width: 200px;
+    margin-left: 410px;
+    margin-right: 220px;
+    margin-top: -200px;
+    transform: translate(-50%,-50%);
+  } */
+  .contact_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 20px;
+  
+  }
+  .Contacts{
+    display: flex;
+    align-items: center;
+    width:50px;
+    height: 50px;
+    background-color: rgb(160, 160, 160);
+    border: 2px solid rgb(14, 14, 14);
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+  }
+  
+  .Contact_link{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .Contacts:hover{
+    background-color: rgb(43, 177, 255);
+    border-radius: 30px;
+    animation: rotate 4s linear infinite;
+    transition: 0.5s;
+  }
+  
+  .contact_images{
+    align-items: center;
+    display: block;
+    height:40px;
+    width: 40px;
+    margin-left: 5px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width:1120px) {
+   .home_my_name{
+     width: 670px;
+     margin-left: 350px;
+   }
+  }
+  @media (max-width:703px) {
+    .home_my_name{
+      width: 340px;
+      height: 230px;
+      font-size: 25px;
+      margin-left: 230px;
+      word-wrap: break-word;
+    }
+    .home_frontend_deve{
+      font-size: 20px;
+    }
+    .home_about{
+      font-size: 8px;
+      width: 260px;
+    }
+    .profile_bg{
+      width: 400px;
+      left: 780px;
+    }
+    .Contacts{
+      width: 31px;
+      height: 31px;
+    }
+    .contact_images{
+      width: 30px;
+      height: 30px;
+      margin-left: 0;
+    }
+    .profile_bg{
+      opacity: 0;
+      display: none;
+    }
+   }
+   
+   @media (max-width:340px) {
+    .home_my_name{
+      margin-left: 300px;
+    }
+    .profile_bg{
+      width: 400px;
+      left: 680px;
+    }
+   }
