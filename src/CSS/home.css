@@ -35,7 +35,6 @@
     font-size: 40px;
   
     width: 700px;
-    height: 290px;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 12px;
     background-color: rgba(64, 65, 66, 0.7);
@@ -58,7 +57,7 @@
     letter-spacing: 1px;
     overflow-wrap: break-word;
     text-align: left;
-    width: 500px;
+    width: 90%;
     font-size: 13px;
     font-weight:100 ;
   
@@ -81,7 +80,7 @@
     flex-wrap: wrap;
     text-align: center;
     margin-top: 20px;
-  
+    margin-bottom: 20px;
   }
   .Contacts{
     display: flex;

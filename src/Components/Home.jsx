@@ -51,10 +51,9 @@ function Home() {
                         />
                     </span>
                     <p className='home_about'>
-                        A skilled software engineer  with 2 years of experience, My 
-                        professional background reflects a strong foundation in 
-                        this field.
-                        you can contact me at any time to start a work full of creativity and good performance.
+                        <p>🔹 Software engineer, expertise in React.js & Next.js</p> 
+                        <p>🔹 front-end development lecturer</p>
+                        <p>🔹 founder of card game "War arena"</p>
                     </p>
 
 

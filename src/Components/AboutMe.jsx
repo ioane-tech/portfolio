@@ -13,20 +13,20 @@ function AboutMe() {
 
        <div className='about_each_item'>
             <p className='about_item_headers'>
-                Professional Experience at (SCSA)
+                Mindioo (social platform)
             </p>
             <p>
                 <Typed 
                     strings={
                         [
-                            ` As a Front-End Developer at the Scientific Cyber Security 
-                            Association (SCSA), I excelled in creating user-centric React 
-                            components and integrating top libraries and REST APIs for seamless 
-                            frontend-backend communication. I collaborated effectively with backend
-                            teams, leveraging Docker, GitLab, and my adaptability to ensure 
-                            efficient development and deployment workflows. Actively participating
-                            in meetings, I refined feature implementations to align with user 
-                            needs.`
+                            `
+                               🤝 Collaborating with backend developers, front end developers, and UI/UX designers to build and enhance a social platform.
+                                🗓️ Participate in weekly meetings with developers and founders to discuss tasks and future plans.
+                                🎨 Utilize Figma for designing and implementing website styles and interfaces.
+                                📋 Use Trello for development planning, task management, and progress tracking.
+                                💬 We use Slack for smooth communication.
+                                👨🏼‍💻 Develop and maintain responsive and user-friendly web interfaces using Next.js.
+                            `
                         ]
                     }
                     typeSpeed={4}
@@ -36,17 +36,18 @@ function AboutMe() {
 
        <div className='about_each_item'>
          <p className='about_item_headers'>
-            Professional Experience at (DarieX)
+           DarieX
          </p>
          <p>
             <Typed 
                 strings={
                     [
-                        `At DarieX, I led a successful migration from a .NET desktop app to 
-                        React.js, demonstrating my proficiency in JavaScript, CSS, and HTML. 
-                        I championed modern practices for continuous integration and 
-                        client-centric solutions, consistently driving innovation and pushing 
-                        the boundaries of software development.`
+                        `
+                            🔹️ Leading the migration process from a well-established .NET desktop application to React.js. This application has undergone development over 12 years and is presently in the process of improving and releasing updates. Due to the ongoing migration, expecting a substantial boost in React.js mastery, more than doubling.📈
+                            🔹️implementing modern practices for continuous integration & client-centric solutions.
+                            🔹️Driving innovation, honing skills, and pushing software development boundaries.
+                            🔹️Envisioning a potential business growth of 200%💸 for the company following the migration to the website.
+                        `
                     ]
                 }
                 typeSpeed={7}
@@ -57,58 +58,23 @@ function AboutMe() {
            
         <div className='about_each_item'>
             <p className='about_item_headers'>
-                Strengths:
+                SCSA (scientific cyber security asscociation)
             </p>   
             <p>
-                <ul>
-                    <li>
                     <Typed 
                         strings={
                             [
-                                `Adaptability: I possess a knack for quickly adapting to new environments, technologies, 
-                                and remote work settings, leveraging my skills in AI.`
+                                `
+                                    🔹️ website consist of 20+ pages.📰 Developed user-centric React components, integrating top libraries and Rest API for seamless frontend-backend communication.
+                                    🚀 Collaborated with the backend team, ensuring smooth integration of components for an enhanced application interface.
+                                    🌐 Utilized Docker & GitLab for efficient development and deployment workflows.
+                                    💭 Actively contributed in meetings, refining feature implementations to align with user needs.
+                                    🔹️ Enhanced expertise by learning from a skilled
+                                `
                             ]
                         }
-                        typeSpeed={40}
+                        typeSpeed={7}
                     />   
-                    </li>
-                    <li>
-                        <Typed 
-                            strings={
-                                [
-                                    ` Teamwork: Skilled in collaborating effectively with colleagues to 
-                                    achieve shared objectives.`
-                                ]
-                            }
-                            typeSpeed={40}
-                        />
-                    
-                    </li>
-                    <li>
-                        <Typed 
-                            strings={
-                                [
-                                    ` Problem Solving: Proficient in analyzing situations and 
-                                    devising effective solutions.`
-                                ]
-                            }
-                            typeSpeed={40}
-                        />
-                    
-                    </li>
-                    <li>
-                        <Typed 
-                            strings={
-                                [
-                                    ` Time Management: Efficiently organize and prioritize tasks to meet 
-                                    project deadlines.`
-                                ]
-                            }
-                            typeSpeed={40}
-                        />
-                    
-                    </li>
-                </ul>
             </p>
 
         </div>
@@ -117,182 +83,22 @@ function AboutMe() {
                    
         <div className='about_each_item'>
             <p className='about_item_headers'>
-                Skills:
+                LegendsHub
             </p>   
             <p>
-                <ul>
-                    <li>
                     <Typed 
                         strings={
                             [
-                                `HTML`
+                                `
+                                    🔸Contributing to "LegendHub," a hub for League of Legends enthusiasts in Georgia's gaming scene.
+                                    🤝Collaborating with a backend and front end developers.
+                                    👁‍🗨Utilizing Figma for page styling, working closely with a UI/UX designer for a user-friendly experience.
+                                    📞Maintaining seamless collaboration through regular meet calls to discuss tasks and stay aligned.
+                                `
                             ]
                         }
-                        typeSpeed={40}
+                        typeSpeed={7}
                     />   
-                    </li>
-                    <li>
-                        <Typed 
-                            strings={
-                                [
-                                    `CSS`
-                                ]
-                            }
-                            typeSpeed={40}
-                        />
-                    
-                    </li>
-                    <li>
-                        <Typed 
-                            strings={
-                                [
-                                    `JavaScript`
-                                ]
-                            }
-                            typeSpeed={40}
-                        />
-                    
-                    </li>
-                    <li>
-                        <Typed 
-                            strings={
-                                [
-                                    `Bootstrap`
-                                ]
-                            }
-                            typeSpeed={40}
-                        />
-                    
-                    </li>
-                    <li>
-                        <Typed 
-                            strings={
-                                [
-                                    `Data structures and algorithms`
-                                ]
-                            }
-                            typeSpeed={40}
-                        />
-                    
-                    </li>
-                    <li>
-                        <Typed 
-                            strings={
-                                [
-                                    `React.js`
-                                ]
-                            }
-                            typeSpeed={40}
-                        />
-                    
-                    </li>
-                    <li>
-                        <Typed 
-                            strings={
-                                [
-                                    `Styled-components`
-                                ]
-                            }
-                            typeSpeed={40}
-                        />
-                    
-                    </li>
-                    <li>
-                        <Typed 
-                            strings={
-                                [
-                                    `React Router`
-                                ]
-                            }
-                            typeSpeed={40}
-                        />
-                    
-                    </li>
-                    <li>
-                        <Typed 
-                            strings={
-                                [
-                                    `React Table`
-                                ]
-                            }
-                            typeSpeed={40}
-                        />
-                    </li>
-                    <li>
-                        <Typed 
-                            strings={
-                                [
-                                    `React Context`
-                                ]
-                            }
-                            typeSpeed={40}
-                        />
-                    
-                    </li>
-                    <li>
-                        <Typed 
-                            strings={
-                                [
-                                    `React sockets`
-                                ]
-                            }
-                            typeSpeed={40}
-                        />
-                    
-                    </li>
-                    <li>
-                        <Typed 
-                            strings={
-                                [
-                                    `Devexpress React`
-                                ]
-                            }
-                            typeSpeed={40}
-                        />
-                    </li>                    <li>
-                        <Typed 
-                            strings={
-                                [
-                                    `API Integration`
-                                ]
-                            }
-                            typeSpeed={40}
-                        />
-                    
-                    </li>
-                    <li>
-                        <Typed 
-                            strings={
-                                [
-                                    `npm`
-                                ]
-                            }
-                            typeSpeed={40}
-                        />
-                    
-                    </li>
-                    <li>
-                        <Typed 
-                            strings={
-                                [
-                                    `Git`
-                                ]
-                            }
-                            typeSpeed={40}
-                        />
-                                        <li>
-                        <Typed 
-                            strings={
-                                [
-                                    `Python basics`
-                                ]
-                            }
-                            typeSpeed={40}
-                        />
-                    
-                    </li>
-                    </li>
-                </ul>
             </p>
 
         </div>
@@ -304,17 +110,14 @@ function AboutMe() {
             <Typed 
                 strings={
                     [
-                        `I am a skilled software engineer specializing in front-end
-                        development, particularly adept with React.js. having
-                        gained valuable work experience and expertise in creating
-                        engaging user interfaces and experiences. While excelling in
-                        front-end technologies, I have a keen interest in expanding my
-                        knowledge to encompass back-end development, aspiring to
-                        transition into a full-stack developer role. My ambition includes
-                        the desire to eventually establish my own business, leveraging
-                        my diverse skill set and comprehensive understanding of both
-                        front-end and back-end technologies to create innovative
-                        solutions.`
+                        `   
+                            🔹 I am a software engineer specializing in web development, with expertise in React.js and Next.js. 
+                            I have years of experience building responsive, user-friendly web applications.
+                            🔹 I also teach front-end development, covering HTML, CSS, JavaScript, React.js, and Next.js. My teaching 
+                            focuses on practical skills and real-world application.
+                            🔹 Additionally, I am the founder of "War Arena," a card game currently in development. This project combines 
+                            my passion for gaming with my technical skills.
+                        `
                     ]
                 }
                 typeSpeed={4}
@@ -322,8 +125,6 @@ function AboutMe() {
         </div>
 
      </div>
-
-     <img className='About_image' src="aboutMeImage.png" alt="" />
     </div>
   )
 }
