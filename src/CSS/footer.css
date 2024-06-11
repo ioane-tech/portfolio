@@ -1,0 +1,20 @@
+
+.footer_container{
+    width: screen;
+    height: 200px;
+    color: white;
+    background-color: rgba(56, 56, 56, 0.8);
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.footer_text{
+    font-family: sans-serif;
+    color: rgb(195, 195, 195);
+    text-align: center;
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}

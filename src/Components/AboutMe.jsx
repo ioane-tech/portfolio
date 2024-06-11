@@ -3,6 +3,7 @@ import Typed from "react-typed"
 function AboutMe() {
   return (
     <div>
+     <div style={{height:'1px', marginTop:'200px'}} id='aboutMe'></div>
      <div className="container_header">
         <hr className="hr-line1" />
         <span className="hr-text">"About Me"</span>

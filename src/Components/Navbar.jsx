@@ -6,9 +6,9 @@ function Navbar() {
     <div className='navbar_div'>
        <img className="navbar_favicon" src="mainIcon.png" alt="My favicon" />
             
-       <NavLink className='inline'to='/'>Home</NavLink>
-       <NavLink className='inline' to='/aboutMe'>About me</NavLink>
-       <NavLink className='inline' to="/projects">Projects</NavLink>   
+       <a className='inline'href='#home'>Home</a>
+       <a className='inline' href='#aboutMe'>About me</a>
+       <a className='inline' href="#projects">Projects</a>   
     </div>
   )
 }

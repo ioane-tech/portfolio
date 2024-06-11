@@ -24,6 +24,7 @@ function Home() {
     };
   return (
     <motion.div
+        id='home'
         className='Home_div'
         initial={{opacity:0,transition:"0.7s"}}
         animate={{opacity:1, transition:"0.7s"}}
@@ -41,17 +42,16 @@ function Home() {
                 <h1 className='home_my_name'>
                     <p>Ioane Turmanidze</p>
                     <span className='home_frontend_deve'>
-                        <span>Hello! I am </span>
                         <Typed 
-                            strings={["Front-End Developer","Skilled In React.js"]}
-                            typeSpeed={100}
-                            backSpeed={70}
+                            strings={["Hello! I am Front-End Developer","expertized In React/Next.js"]}
+                            typeSpeed={45}
+                            backSpeed={30}
                             backDelay={1000}
                             loop
                         />
                     </span>
                     <p className='home_about'>
-                        <p>🔹 Software engineer, expertise in React.js & Next.js</p> 
+                        <p>🔹 Software engineer React.js & Next.js</p> 
                         <p>🔹 front-end development lecturer</p>
                         <p>🔹 founder of card game "War arena"</p>
                     </p>

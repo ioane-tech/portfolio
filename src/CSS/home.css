@@ -50,6 +50,7 @@
   .home_frontend_deve{
     font-size: 25px;
     margin-top: -25px;
+    border: 1px solid rgba(1,2,2,0);
     color: rgba(0, 216, 255, 1);
   }
   .home_about{

@@ -29,6 +29,7 @@
     width: 800px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 100px;
   }
   .projects_index_container{
     display: flex;
@@ -63,11 +64,15 @@
   .description_link{
     text-decoration: none;
   }
-  
+
   @media (max-width:1000px) {
     .projects_index_container{
       flex-direction: row;
       width: 500px;
+    }
+    .mywork_projects_container{
+      margin-left: auto;
+      margin-right:auto;
     }
     .work_imgs_div{
       flex-direction: column;

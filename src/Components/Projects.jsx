@@ -16,6 +16,7 @@ function Projects() {
     const currentProject = Projects_object[currentIndex];
   return (
     <div>
+        <div style={{height:'1px'}} id='projects'></div>
         <div className="container_header">
             <hr className="hr-line1" />
             <span className="hr-text">" Projects"</span>
