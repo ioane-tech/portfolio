@@ -5,13 +5,13 @@ function Projects() {
 
     const [currentIndex, setCurrentIndex] = useState(0);
 
-    const handleNext = () => {
-      setCurrentIndex((currentIndex === Projects_object.length - 1 ? 0 : currentIndex + 1));
-    };
+    // const handleNext = () => {
+    //   setCurrentIndex((currentIndex === Projects_object.length - 1 ? 0 : currentIndex + 1));
+    // };
   
-    const handleBack = () => {
-      setCurrentIndex((currentIndex === 0 ? Projects_object.length - 1 : currentIndex - 1));
-    };
+    // const handleBack = () => {
+    //   setCurrentIndex((currentIndex === 0 ? Projects_object.length - 1 : currentIndex - 1));
+    // };
   
     const currentProject = Projects_object[currentIndex];
   return (
